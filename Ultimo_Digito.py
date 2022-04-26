@@ -16,9 +16,6 @@ ultimo_digito = X % 10
 Z = ultimo_digito % 2
 
 if Z == 0:
-    msj = "El ultimo digito es par"
+    print("El ultimo digito de " + str(X) + " es PAR")
 
-
-#output
-
-print(msj)
+print("Eso era...")
